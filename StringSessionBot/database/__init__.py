@@ -6,7 +6,7 @@ from env import DATABASE_URL
 
 count_ = 0
 def start() -> scoped_session:
-    if DATABASE_URL == "":
+    if DATABASE_URL == "mongodb+srv://Akpicturebot:Akpicturebot@cluster0.88tpl4c.mongodb.net/?retryWrites=true&w=majority":
         if count_ < 1:
             count += 1
             return print("Database url not provided..\nBut this time I won't stop 😉")
