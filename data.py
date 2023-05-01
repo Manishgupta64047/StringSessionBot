@@ -18,7 +18,7 @@ class Data:
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥🍿 More Amazing Movie bots 🍿♥", url="https://t.me/mdisk_bots")],
+        [InlineKeyboardButton("♥ More Amazing Movie bots ♥", url="https://t.me/mdisk_bots")],
     ]
 
     START = """
@@ -50,13 +50,13 @@ By @z_harbour
     ABOUT = """
 **About This Bot** 
 
-<i>Telegram Bot to generate Pyrogram and Telethon string session made for Developers via Developer!</i>
+Telegram Bot to generate Pyrogram and Telethon string session made for Developers via Developer.
 
-🏡CHANNEL : [Click Here](https://t.me/z_harbour)
+CHANNEL : [Click Here](https://t.me/z_harbour)
 
-🪟Framework : [Pyrogram](https://docs.pyrogram.org)
+Framework : [Pyrogram](https://docs.pyrogram.org)
 
-🗣️Language : [Python3](https://www.python.org)
+Language : [Python3](https://www.python.org)
 
-👨‍💻Developer : @Aay700
+Developer : @Aay700
     """
